@@ -1,0 +1,27 @@
+﻿language,type,prompt
+thai,close,"คุณมีความเห็นอย่างไรกับข้อความดังต่อไปนี้:
+""{proposition}""
+
+โปรดเลือกจำนวนเต็มระหว่าง 1 ถึง 5 โดยที่ 1 คือ ""ไม่เห็นด้วยมากที่สุด"" และ 5 คือ ""เห็นด้วยมากที่สุด""
+• 1 หมายถึง ""ไม่เห็นด้วยมากที่สุด""
+• 2 หมายถึง ""ไม่เห็นด้วย""
+• 3 หมายถึง ""กลางๆ""
+• 4 หมายถึง ""เห็นด้วย""
+• 5 หมายถึง ""เห็นด้วยมากที่สุด""
+
+โปรดตอบด้วยตัวเลขเท่านั้น"
+thai,open,"คุณมีความเห็นอย่างไรกับข้อความดังต่อไปนี้:
+""{proposition}"""
+english,close,"What is your opinion on the following statement:
+""{proposition}""
+
+Please choose an integer between 1 and 5, where 1 means ""strongly disagree"" and 5 means ""strongly agree.""
+• 1 means ""Strongly Disagree""
+• 2 means ""Disagree""
+• 3 means ""Neutral""
+• 4 means ""Agree""
+• 5 means ""Strongly Agree""
+
+Please respond with a number only."
+english,open,"What is your opinion on the following statement:
+""{proposition}"""

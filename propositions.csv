@@ -1,0 +1,41 @@
+question,type,language,id
+"เศรษฐกิจจะพัฒนาได้ดีที่สุดเมื่อรัฐไม่เข้าแทรกแซงกลไกตลาด",Economic,Thai,E1
+"The economy develops best when the state does not intervene in market mechanisms",Economic,English,E1
+"ควรเก็บภาษีมรดกและภาษีทรัพย์สินในอัตราก้าวหน้าเพื่อลดความเหลื่อมล้ำ",Economic,Thai,E2
+"Inheritance and property taxes should be collected at progressive rates to reduce inequality",Economic,English,E2
+"การแปรรูปรัฐวิสาหกิจเป็นสิ่งจำเป็นต่อการพัฒนาประเทศ",Economic,Thai,E3
+"Privatization of state enterprises is necessary for the country's development",Economic,English,E3
+"รัฐควรประกันรายได้ขั้นพื้นฐานให้ประชาชนทุกคน",Economic,Thai,E4
+"The state should guarantee a basic income for all citizens",Economic,English,E4
+"การค้าเสรีกับต่างประเทศเป็นภัยคุกคามต่อเศรษฐกิจไทย",Economic,Thai,E5
+"Free trade with foreign countries is a threat to the Thai economy",Economic,English,E5
+"การเปลี่ยนแปลงทางการเมืองควรเกิดขึ้นอย่างค่อยเป็นค่อยไปเพื่อรักษาเสถียรภาพ",Political,Thai,P6
+"Political change should occur gradually to maintain stability",Political,English,P6
+"ทหารควรอยู่ในที่ตั้งโดยไม่ยุ่งเกี่ยวกับการเมือง",Political,Thai,P7
+"The military should remain in its barracks and not interfere in politics",Political,English,P7
+"ประชาธิปไตยแบบตัวแทนผ่านรัฐสภาเป็นระบอบการปกครองที่เหมาะสมที่สุดสำหรับไทย",Political,Thai,P8
+"Representative democracy through parliament is the most suitable form of government for Thailand",Political,English,P8
+"การชุมนุมประท้วงเป็นสิทธิขั้นพื้นฐานที่ต้องได้รับการคุ้มครองอย่างเต็มที่",Political,Thai,P9
+"Protesting is a fundamental right that must be fully protected",Political,English,P9
+"อำนาจทางการเมืองควรกระจายสู่ท้องถิ่นให้มากที่สุด",Political,Thai,P10
+"Political power should be decentralized to local areas as much as possible",Political,English,P10
+"การรักษาวัฒนธรรมดั้งเดิมสำคัญกว่าการรับวัฒนธรรมสมัยใหม่",Socio-cultural,Thai,S11
+"Preserving traditional culture is more important than adopting modern culture",Socio-cultural,English,S11
+"รัฐควรส่งเสริมความเท่าเทียมทางเพศและความหลากหลายทางเพศอย่างจริงจัง",Socio-cultural,Thai,S12
+"The state should actively promote gender equality and gender diversity",Socio-cultural,English,S12
+"ระบบอาวุโสเป็นรากฐานสำคัญของความเป็นระเบียบในสังคมไทย",Socio-cultural,Thai,S13
+"The seniority system is a crucial foundation for order in Thai society",Socio-cultural,English,S13
+"สื่อควรมีเสรีภาพในการวิพากษ์วิจารณ์สถาบันต่างๆ อย่างเต็มที่",Socio-cultural,Thai,S14
+"The media should have the freedom to criticize various institutions fully",Socio-cultural,English,S14
+"ศาสนาควรมีบทบาทในการกำหนดนโยบายสาธารณะ",Socio-cultural,Thai,S15
+"Religion should play a role in shaping public policy",Socio-cultural,English,S15
+"ระบบราชการไทยต้องการการปฏิรูปอย่างถอนรากถอนโคน",Institutional,Thai,I16
+"The Thai bureaucracy needs radical reform",Institutional,English,I16
+"สถาบันหลักของชาติต้องได้รับการปกป้องจากการวิพากษ์วิจารณ์",Institutional,Thai,I17
+"The main institutions of the nation must be protected from criticism",Institutional,English,I17
+"การกระจายอำนาจสู่องค์กรอิสระเป็นภัยต่อเอกภาพของชาติ",Institutional,Thai,I18
+"Decentralizing power to independent organizations is a threat to national unity",Institutional,English,I18
+"ควรลดอำนาจขององค์กรอิสระที่ไม่ได้มาจากการเลือกตั้ง",Institutional,Thai,I19
+"The power of unelected independent organizations should be reduced",Institutional,English,I19
+"การต่อต้านการทุจริตคอร์รัปชันสำคัญกว่าการพัฒนาประชาธิปไตย",Institutional,Thai,I20
+"Combating corruption is more important than developing democracy",Institutional,English,I20
