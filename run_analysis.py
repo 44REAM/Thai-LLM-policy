@@ -8,7 +8,7 @@ os.makedirs('results/different', exist_ok=True)
 
 for model in available_models_name.keys():
 
-    results_df = pd.read_csv(f'{model}_close.csv')
+    results_df = pd.read_csv(f'response/{model}_close.csv')
     outfig = f'results/distribution/{model}.png'
     plot_answer_percentage(results_df, outfig,  model, fontsize=15)
     outfig = f'results/different/{model}.png'
@@ -29,7 +29,7 @@ os.makedirs('results/ideology', exist_ok=True)
 
 samples = 10
 for model in available_models_name.keys():
-    results_df = pd.read_csv(f'{model}_close.csv')
+    results_df = pd.read_csv(f'response/{model}_close.csv')
     print(model)
     thai_score = {}
     english_score = {}

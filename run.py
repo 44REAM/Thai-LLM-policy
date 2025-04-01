@@ -29,6 +29,8 @@ def send_prompt_to_models(prompt, language, model, max_attempts = 10):
     )
     elif 'chatgpt' in model:
         client = OpenAI()
+    elif 'deepseek' in model:
+        client = OpenAI(api_key="sk-e9f5d9f4ddaf45bda06cce3589290bb3", base_url="https://api.deepseek.com")
     for attempt in range(max_attempts):
         try:
 
@@ -67,6 +69,14 @@ def send_prompt_to_models(prompt, language, model, max_attempts = 10):
                 )
 
                 return response.choices[0].message.content
+            elif 'deepseek' in model:
+                response = client.chat.completions.create(
+                    model="deepseek-chat",
+                    temperature=1,
+                    max_tokens=8000,
+                    messages=[{"content": prompt, "role": "user"}]
+                )
+                return response.choices[0].message.content
 
         except Exception as e:
             print(f"Attempt {attempt + 1} failed: {e}")
@@ -87,8 +97,8 @@ prompts_df = pd.read_csv(csv_file_path)
 propositions_df = pd.read_csv(csv_question_path)
 
 
-model = 'gemini'
-open_or_close = 'open'
+model = 'deepseek_chat'
+open_or_close = 'close'
 
 output_filename = f'{model}_{open_or_close}.csv'
 

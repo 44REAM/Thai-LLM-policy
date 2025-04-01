@@ -182,7 +182,7 @@ if __name__ == '__main__':
     os.makedirs('results/ideology', exist_ok=True)
     samples = 10
     for model in available_models_name.keys():
-        results_df = pd.read_csv(f'{model}_close.csv')
+        results_df = pd.read_csv(f'response/{model}_close.csv')
         print(model)
         thai_score = {}
         english_score = {}
