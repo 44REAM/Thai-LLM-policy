@@ -30,7 +30,7 @@ def send_prompt_to_models(prompt, language, model, max_attempts = 10):
     elif 'chatgpt' in model:
         client = OpenAI()
     elif 'deepseek' in model:
-        client = OpenAI(api_key="sk-e9f5d9f4ddaf45bda06cce3589290bb3", base_url="https://api.deepseek.com")
+        client = OpenAI(api_key="", base_url="https://api.deepseek.com")
     for attempt in range(max_attempts):
         try:
 
@@ -89,9 +89,9 @@ def send_prompt_to_models(prompt, language, model, max_attempts = 10):
 csv_file_path = 'prompt_template.csv'
 csv_question_path = 'propositions.csv'
 
-os.environ["ANTHROPIC_API_KEY"] = "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"
-os.environ["GEMINI_API_KEY"] = "AIzaSyAPNYpX5In82PC0DijXEmFKryDhqZFPHlY"
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["ANTHROPIC_API_KEY"] = ""
+os.environ["GEMINI_API_KEY"] = ""
+os.environ["OPENAI_API_KEY"] = ""
 # Read prompts from CSV using pandas
 prompts_df = pd.read_csv(csv_file_path)
 propositions_df = pd.read_csv(csv_question_path)
